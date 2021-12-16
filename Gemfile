@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 
 # Our fork is required for our custom test formatter to work properly (ace_spec_formatter.rb)
-# gem 'xcpretty', :git => 'https://github.com/guyo714/xcpretty.git', :branch => '0.2.8-aaa'
-gem 'xcpretty', :path => 'Externals/xcpretty'
 gem 'highline', '1.7.8'
 gem 'cocoapods', '~> 1.5.0'
 gem 'json-schema', '2.8'
